@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: ea919c3a2ccbf734683f287df236748e
+timeCreated: 1474940228
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: armLower_l
+    100002: armLower_r
+    100004: armUpper_l
+    100006: armUpper_r
+    100008: character
+    100010: //RootNode
+    100012: foot_l
+    100014: foot_r
+    100016: footLeft
+    100018: footRight
+    100020: hand_l
+    100022: hand_r
+    100024: handLeft
+    100026: handRight
+    100028: head
+    100030: head_0
+    100032: leg_l
+    100034: leg_r
+    100036: main
+    100038: Plane
+    100040: sheath
+    100042: sheath_0
+    100044: shoulder_l
+    100046: shoulder_r
+    100048: sword
+    100050: tigh_l
+    100052: tihgh_r
+    100054: torso
+    100056: torso_0
+    100058: Plane_001
+    100060: hat
+    100062: sword_0
+    400000: armLower_l
+    400002: armLower_r
+    400004: armUpper_l
+    400006: armUpper_r
+    400008: character
+    400010: //RootNode
+    400012: foot_l
+    400014: foot_r
+    400016: footLeft
+    400018: footRight
+    400020: hand_l
+    400022: hand_r
+    400024: handLeft
+    400026: handRight
+    400028: head
+    400030: head_0
+    400032: leg_l
+    400034: leg_r
+    400036: main
+    400038: Plane
+    400040: sheath
+    400042: sheath_0
+    400044: shoulder_l
+    400046: shoulder_r
+    400048: sword
+    400050: tigh_l
+    400052: tihgh_r
+    400054: torso
+    400056: torso_0
+    400058: Plane_001
+    400060: hat
+    400062: sword_0
+    4300000: Plane
+    4300002: sheath
+    4300004: handRight
+    4300006: handLeft
+    4300008: head
+    4300010: torso
+    4300012: footRight
+    4300014: footLeft
+    4300016: Plane_001
+    4300018: hat
+    4300020: sword
+    7400000: character_idle
+    7400002: character_run
+    7400004: character_attack
+    7400006: character_throw
+    7400008: character_jump
+    7400010: character_air
+    7400012: character_land
+    9500000: //RootNode
+    13700000: footLeft
+    13700002: footRight
+    13700004: handLeft
+    13700006: handRight
+    13700008: head
+    13700010: Plane
+    13700012: sheath
+    13700014: torso
+    13700016: Plane_001
+    13700018: hat
+    13700020: sword
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: character_idle
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character
+        weight: 1
+      - path: character/main
+        weight: 1
+      - path: character/main/head_0
+        weight: 1
+      - path: character/main/shoulder_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l/sword
+        weight: 1
+      - path: character/main/shoulder_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r/hand_r
+        weight: 1
+      - path: character/main/torso_0
+        weight: 1
+      - path: character/main/torso_0/sheath_0
+        weight: 1
+      - path: character/main/torso_0/tigh_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l/foot_l
+        weight: 1
+      - path: character/main/torso_0/tihgh_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r/foot_r
+        weight: 1
+      - path: footLeft
+        weight: 1
+      - path: footRight
+        weight: 1
+      - path: handLeft
+        weight: 1
+      - path: handRight
+        weight: 1
+      - path: head
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sheath
+        weight: 1
+      - path: torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: character_run
+      takeName: Default Take
+      firstFrame: 64
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character
+        weight: 1
+      - path: character/main
+        weight: 1
+      - path: character/main/head_0
+        weight: 1
+      - path: character/main/shoulder_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l/sword
+        weight: 1
+      - path: character/main/shoulder_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r/hand_r
+        weight: 1
+      - path: character/main/torso_0
+        weight: 1
+      - path: character/main/torso_0/sheath_0
+        weight: 1
+      - path: character/main/torso_0/tigh_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l/foot_l
+        weight: 1
+      - path: character/main/torso_0/tihgh_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r/foot_r
+        weight: 1
+      - path: footLeft
+        weight: 1
+      - path: footRight
+        weight: 1
+      - path: handLeft
+        weight: 1
+      - path: handRight
+        weight: 1
+      - path: head
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sheath
+        weight: 1
+      - path: torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: character_attack
+      takeName: Default Take
+      firstFrame: 79
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character
+        weight: 1
+      - path: character/main
+        weight: 1
+      - path: character/main/head_0
+        weight: 1
+      - path: character/main/shoulder_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l/sword
+        weight: 1
+      - path: character/main/shoulder_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r/hand_r
+        weight: 1
+      - path: character/main/torso_0
+        weight: 1
+      - path: character/main/torso_0/sheath_0
+        weight: 1
+      - path: character/main/torso_0/tigh_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l/foot_l
+        weight: 1
+      - path: character/main/torso_0/tihgh_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r/foot_r
+        weight: 1
+      - path: footLeft
+        weight: 1
+      - path: footRight
+        weight: 1
+      - path: handLeft
+        weight: 1
+      - path: handRight
+        weight: 1
+      - path: head
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sheath
+        weight: 1
+      - path: torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: character_throw
+      takeName: Default Take
+      firstFrame: 101
+      lastFrame: 112
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character
+        weight: 1
+      - path: character/main
+        weight: 1
+      - path: character/main/head_0
+        weight: 1
+      - path: character/main/shoulder_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l/sword
+        weight: 1
+      - path: character/main/shoulder_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r/hand_r
+        weight: 1
+      - path: character/main/torso_0
+        weight: 1
+      - path: character/main/torso_0/sheath_0
+        weight: 1
+      - path: character/main/torso_0/tigh_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l/foot_l
+        weight: 1
+      - path: character/main/torso_0/tihgh_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r/foot_r
+        weight: 1
+      - path: footLeft
+        weight: 1
+      - path: footRight
+        weight: 1
+      - path: handLeft
+        weight: 1
+      - path: handRight
+        weight: 1
+      - path: head
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sheath
+        weight: 1
+      - path: torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: character_jump
+      takeName: Default Take
+      firstFrame: 115
+      lastFrame: 131
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character
+        weight: 1
+      - path: character/main
+        weight: 1
+      - path: character/main/head_0
+        weight: 1
+      - path: character/main/shoulder_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l/sword
+        weight: 1
+      - path: character/main/shoulder_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r/hand_r
+        weight: 1
+      - path: character/main/torso_0
+        weight: 1
+      - path: character/main/torso_0/sheath_0
+        weight: 1
+      - path: character/main/torso_0/tigh_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l/foot_l
+        weight: 1
+      - path: character/main/torso_0/tihgh_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r/foot_r
+        weight: 1
+      - path: footLeft
+        weight: 1
+      - path: footRight
+        weight: 1
+      - path: handLeft
+        weight: 1
+      - path: handRight
+        weight: 1
+      - path: head
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sheath
+        weight: 1
+      - path: torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: character_air
+      takeName: Default Take
+      firstFrame: 131
+      lastFrame: 146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character
+        weight: 1
+      - path: character/main
+        weight: 1
+      - path: character/main/head_0
+        weight: 1
+      - path: character/main/shoulder_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l/sword
+        weight: 1
+      - path: character/main/shoulder_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r/hand_r
+        weight: 1
+      - path: character/main/torso_0
+        weight: 1
+      - path: character/main/torso_0/sheath_0
+        weight: 1
+      - path: character/main/torso_0/tigh_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l/foot_l
+        weight: 1
+      - path: character/main/torso_0/tihgh_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r/foot_r
+        weight: 1
+      - path: footLeft
+        weight: 1
+      - path: footRight
+        weight: 1
+      - path: handLeft
+        weight: 1
+      - path: handRight
+        weight: 1
+      - path: head
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sheath
+        weight: 1
+      - path: torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: character_land
+      takeName: Default Take
+      firstFrame: 150
+      lastFrame: 164
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: character
+        weight: 1
+      - path: character/main
+        weight: 1
+      - path: character/main/head_0
+        weight: 1
+      - path: character/main/shoulder_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l
+        weight: 1
+      - path: character/main/shoulder_l/armUpper_l/armLower_l/hand_l/sword
+        weight: 1
+      - path: character/main/shoulder_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r
+        weight: 1
+      - path: character/main/shoulder_r/armUpper_r/armLower_r/hand_r
+        weight: 1
+      - path: character/main/torso_0
+        weight: 1
+      - path: character/main/torso_0/sheath_0
+        weight: 1
+      - path: character/main/torso_0/tigh_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l
+        weight: 1
+      - path: character/main/torso_0/tigh_l/leg_l/foot_l
+        weight: 1
+      - path: character/main/torso_0/tihgh_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r
+        weight: 1
+      - path: character/main/torso_0/tihgh_r/leg_r/foot_r
+        weight: 1
+      - path: footLeft
+        weight: 1
+      - path: footRight
+        weight: 1
+      - path: handLeft
+        weight: 1
+      - path: handRight
+        weight: 1
+      - path: head
+        weight: 1
+      - path: Plane
+        weight: 1
+      - path: sheath
+        weight: 1
+      - path: torso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
